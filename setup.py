@@ -39,18 +39,18 @@ def get_version():
 
 install_requires = [
     'six>=1.5',
-    'kazoo==2.5.0',
+    'kazoo>=2.5.0',
     'tabulate'
 ]
 
 extra_gevent_requires = [
-    'gevent==1.3.6'
+    'gevent>=1.3.6'
 ]
 
 extra_requires = [
-    'lz4==0.10.1',
-    'lz4tools==1.3.1.2',
-    'xxhash==1.0.1'
+    'lz4>=0.10.1',
+    'lz4tools>=1.3.1.2',
+    'xxhash>=1.0.1'
 ] + extra_gevent_requires
 
 lint_requires = [
